@@ -6,8 +6,6 @@ const gameList = document.getElementById('game-list');
 
 const remove = document.getElementById('remove');
 const save = document.getElementById('save-game');
-// const playerName = document.getElementById('player');
-// const playerPoints = document.getElementById('points');
 
 let stats = [];
 let games = [];
@@ -61,7 +59,9 @@ form.addEventListener('submit', (e) => {
 
 remove.addEventListener('click', () => {
     // Step 2 -- add code to allow users to remove the most recent stat
+    stats.pop();
     // Hint -- how do you remove an element from an array?
+    renderStats();
     // Hint -- how can we rerender the stats using a function above?
     
 });
