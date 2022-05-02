@@ -47,3 +47,6 @@ This deliverable is for tracking points scored in a sports game. The HTML / CSS 
 | Users can remove the last stat added to the game      | 2      |
 | Uses can save games and see them on the page          | 2      |
 | Code uses the provided render functions               | 2      |
+
+
+
